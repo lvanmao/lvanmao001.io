@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>mainmenu</title>	
+	</head>	
+	<style>
+			@import "IF.css";
+			@import "TXT.css";
+	</style>
+	<body>
+		<div class="name">
+			<ul>
+			<li>Họ tên: Trịnh Xuân Thịnh</li>
+			<li>Năm sinh: 3/9/2007</li>
+			<li>Giới tính: Nam</li>
+			<li>Học sinh lớp: 12a5</li>
+			<li>Địa chỉ: Xóm 2, thôn An Sơn, Hoài Châu, Hoài Nhơn, Bình Định</li>
+			<li>Sở thích: Chơi game</li>
+			<li>Là thành viên tổ 2</li>
+			</ul>
+		</div>
+		<div class="pic">
+		<img src="TXT.jpg" alt="Ảnh lỗi">
+		</div>
+		<div class="prs">
+			<span><b>Giới Thiệu cá nhân<b></span>
+		</div>
+		<video class="videoprs" src="TXT.mp4" sizes="100%" autoplay muted loop > </video>
+		<audio id="audioprs" autoplay src="TXT.mp3" preload="auto" loop hidden > </audio>
+		<div class="linkmain">
+			<a href="../mainmenu.html"><img src="home.jpg" height="60px" width="80px"></a>
+		</div>
+		<div class="back">
+			<a href="../list.html"><img src="back.jpg" height="60px" width="60px"></a>
+		</div>
+		<script>
+		const sound = document.getElementById("audioprs");
+			sound.volume=0.2;
+		</script>
+	</body>
+</html>
+		
+		
+			
